@@ -2,19 +2,29 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Neon Snake
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/83643466-f1bf-4318-b154-0f8e85c5c013
+A classic Snake game built with React, TypeScript, Vite, and Tailwind CSS.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js 18+
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Run the app:
    `npm run dev`
+3. Open the app at `http://localhost:3000`
+
+## GitHub Pages
+
+This project is configured to deploy to GitHub Pages via GitHub Actions.
+After pushing to `main`, the workflow will build the app and publish the `dist` folder to the `gh-pages` branch.
+
+The deployed site will be available at:
+`https://ctulip102-cmd.github.io/_snake`
+
+## Build
+
+- `npm run build`
+- `npm run preview`
