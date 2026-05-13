@@ -1,0 +1,6 @@
+{
+  "name": "Neon Snake",
+  "description": "A classic Snake game with smooth canvas rendering, neon aesthetics, and responsive controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
